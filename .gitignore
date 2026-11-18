@@ -1,0 +1,27 @@
+# Dependencies & Environments
+node_modules/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Build outputs
+frontend/dist/
+frontend/dist-ssr/
+.vercel/
+
+# Environment files
+*.env
+*.env.local
+*.env.*.local
+!*.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
