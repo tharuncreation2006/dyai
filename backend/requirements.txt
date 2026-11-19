@@ -1,5 +1,5 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pymongo
 python-dotenv
 pwdlib[argon2]
@@ -9,3 +9,5 @@ httpx
 pypdf
 python-docx
 python-multipart
+fastapi
+uvicorn[standard]
