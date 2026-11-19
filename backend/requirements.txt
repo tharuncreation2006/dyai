@@ -1,9 +1,15 @@
 fastapi
-uvicorn[standard]
+uvicorn
 pymongo
 python-dotenv
+pwdlib[argon2]
+PyJWT
+email-validator
 httpx
-python-multipart
 pypdf
 python-docx
+python-multipart
+fastapi
+uvicorn[standard]
 openai
+PyJWT
