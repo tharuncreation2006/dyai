@@ -202,8 +202,7 @@ async def chat(
     except Exception as exc:
         raise HTTPException(
             status_code=502,
-            detail=f"Could not get a response from Ollama: {exc}"
-        )
+            detail=f"Could not get a response from OpenAI: {exc}")
 
     now = datetime.now(timezone.utc)
 
